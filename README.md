@@ -4,8 +4,8 @@
 ## Hello!
 This is a project I started with my kids, for fun. It's based on the following project:
     
-> [Picotamachibi - website](https://www.kevsrobots.com/blog/picotamachibi.html)
-> [Picotamachibi - Github](https://github.com/kevinmcaleer/picotamachibi)
+[Picotamachibi - website](https://www.kevsrobots.com/blog/picotamachibi.html) 
+[Picotamachibi - Github](https://github.com/kevinmcaleer/picotamachibi)
 
 ### Changes
 The idea is to make a smaller hardware platform than the Pi Pico used in the original, using the same RP2040 mcu, and adding some missing essentials.
