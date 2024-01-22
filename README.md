@@ -20,6 +20,6 @@ Here are some of the additions that are implemented/planned/considered:
 - [ ] Environment sensors (considered).
 
 ## Progress
-Schematic: ![](https://geps.dev/progress/80) Third round of review on [r/PrintedCircuitBoard](https://www.reddit.com/r/PrintedCircuitBoard/) ongoing.
+![](https://geps.dev/progress/80) Schematic: Third round of review on [r/PrintedCircuitBoard](https://www.reddit.com/r/PrintedCircuitBoard/) ongoing.
 
-PCB:       ![](https://geps.dev/progress/0) of schematic to begin work on PCB layout.
+![](https://geps.dev/progress/0) PCB: Waiting on the finalization of the schematic to begin work on PCB layout.
