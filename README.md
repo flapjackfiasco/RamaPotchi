@@ -15,7 +15,7 @@ Here are some of the additions that are implemented/planned/considered:
 - [x] Rechargable battery (implemented).
 - [x] Battery charging status LEDs (implemented).
 - [x] A Game Status RGB LED (hardware: implemented / software: planned).
-- [ ] A speaker/buzzer (planned).
+- [x] A speaker/buzzer (implemented).
 - [ ] A haptic feedback motor (considered).
 - [ ] Environment sensors (considered).
 
