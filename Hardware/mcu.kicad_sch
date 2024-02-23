@@ -3665,13 +3665,13 @@
   (symbol (lib_id "RamaPotchi:LED") (at 284.48 221.615 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2de45a36-6a76-47e1-9b64-391687f13ae1)
-    (property "Reference" "D202" (at 284.48 224.155 0)
+    (property "Reference" "D102" (at 284.48 224.155 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 285.75 216.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 284.48 221.615 0)
+    (property "Footprint" "RamaPatchi:HL-PC-3216S31YC-CZ" (at 284.48 221.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 284.48 221.615 0)
@@ -3687,9 +3687,6 @@
     (pin "2" (uuid fa88369a-c014-4ff5-8e87-2fab83def672))
     (instances
       (project "RamaPotchi"
-        (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/3d8c7fc1-a9db-40bc-9202-073c724f74f4"
-          (reference "D202") (unit 1)
-        )
         (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/2d8c086d-8126-4fa2-a232-1a618af9131f"
           (reference "D102") (unit 1)
         )
@@ -4145,7 +4142,7 @@
   (symbol (lib_id "RamaPotchi:TestPoint_Flag") (at 38.735 94.615 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7451a8e3-19a7-4620-a316-e2e2f56685dc)
-    (property "Reference" "TP201" (at 39.37 99.06 0)
+    (property "Reference" "TP101" (at 39.37 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 40.005 93.345 0)
@@ -4160,9 +4157,6 @@
     (pin "1" (uuid e7fe045b-0129-4c3a-a7ea-4bc0178d3458))
     (instances
       (project "RamaPotchi"
-        (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/3d8c7fc1-a9db-40bc-9202-073c724f74f4"
-          (reference "TP201") (unit 1)
-        )
         (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/2d8c086d-8126-4fa2-a232-1a618af9131f"
           (reference "TP101") (unit 1)
         )
@@ -4617,10 +4611,10 @@
     (property "Value" "STATUS LED" (at 378.46 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "E61206RGBC3UDA:RGB_LED_E6C1206RGBC3UDA" (at 378.46 159.385 0)
+    (property "Footprint" "RamaPatchi:E6C1206RGBC3UDA" (at 378.46 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 378.46 159.385 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2203301730_EKINGLUX-E6C1206RGBC3UDA_C375571.pdf" (at 378.46 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 71dcc544-d0e6-42a6-b0da-2031153890a3))
@@ -4759,8 +4753,14 @@
     (property "Footprint" "" (at 215.265 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 215.265 217.805 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2307111134_HCTL-XH-3A-P_C2979572.pdf" (at 215.265 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package Size" "1206" (at 215.265 217.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Product Number" "HL-PC-3216S31YC-CZ" (at 218.44 224.79 0)
+      (effects (font (size 1.27 1.27)))
     )
     (pin "3" (uuid d8844c55-35eb-4b4e-967d-086ea60a616e))
     (pin "2" (uuid 92d3643b-eb0b-4731-953e-8ac8aea1fe32))
@@ -4898,7 +4898,7 @@
   (symbol (lib_id "RamaPotchi:TestPoint_Flag") (at 126.365 208.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c888d946-28e3-427a-99d4-9c5256efaa03)
-    (property "Reference" "TP201" (at 127 212.725 0)
+    (property "Reference" "TP102" (at 127 212.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 127.635 207.01 0)
@@ -4913,9 +4913,6 @@
     (pin "1" (uuid 427856f9-4bf9-43df-b020-60bde46f420d))
     (instances
       (project "RamaPotchi"
-        (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/3d8c7fc1-a9db-40bc-9202-073c724f74f4"
-          (reference "TP201") (unit 1)
-        )
         (path "/d274aa36-eb9d-4efc-a7b7-51cc020ab33e/2d8c086d-8126-4fa2-a232-1a618af9131f"
           (reference "TP102") (unit 1)
         )
